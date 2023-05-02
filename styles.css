@@ -1,0 +1,35 @@
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 80%;
+    min-height: 80%;
+}
+.login-ui{
+    background-color:bisque;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    padding: 100px;
+    min-height:80%;
+    width: 80%;
+    border-radius: 15px;
+    box-shadow:2px 5px rgb(118, 69, 69);
+}
+
+.login-item {
+    margin-bottom: 10px;
+    border: 2px solid rgb(128, 98, 98);
+    border-radius: 5px;
+}
+button{
+    background-color:cornflowerblue;
+}
